@@ -17,6 +17,9 @@ public class BinarySearchApp {
 		int key = sc.nextInt();
 		insertionSort(arr);
 		int result = binarySearch(arr, key);
+		if(result == -1)
+			System.out.println("Element " + key + " not found in the array.");
+		else	
 		System.out.println("Element " + key + " found at index: " + result);
 	}
 	
