@@ -21,6 +21,7 @@ public class BinarySearchApp {
 			System.out.println("Element " + key + " not found in the array.");
 		else	
 		System.out.println("Element " + key + " found at index: " + result);
+		sc.close();
 	}
 	
 	public static void insertionSort(int[] arr) {
